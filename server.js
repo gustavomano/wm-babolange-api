@@ -15,7 +15,7 @@ app.post('/orcamento', (req, res) => {
                      `*Materiais:* \n${materiais}`;
     
     // Seu número de atendimento (com DDD e sem espaços) 
-    const telefoneDeposito = "551236645080"; 
+    const telefoneDeposito = "5512996236909"; 
     const urlWhatsapp = `https://wa.me/${telefoneDeposito}?text=${encodeURIComponent(mensagem)}`;
 
     // Devolve a URL pronta para o Front-end 
